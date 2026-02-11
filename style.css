@@ -1,0 +1,46 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: hsl(1, 97%, 97%);
+}
+
+.wrapper {
+    width: 80%;
+    margin: 10em auto 0;
+}
+
+.wrapper2 {
+    width: 80%;
+    margin: 3em auto 0;
+}
+
+img {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+}
+
+p {
+    text-align: center;
+    font-family: "JetBrains Mono", monospace;
+}
+
+a {
+    background-color: hsl(1, 90%, 93%);
+    color: black;
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 10px;
+    border: solid 3px hsl(1, 65%, 70%);
+    text-decoration: none;
+    font-weight: bold;
+}
