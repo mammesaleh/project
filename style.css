@@ -8,30 +8,36 @@ body {
 }
 
 .wrapper {
-    width: 80%;
+    width: 90%;
     margin: 10em auto 0;
 }
 
 .wrapper2 {
-    width: 80%;
+    width: 90%;
     margin: 3em auto 0;
 }
 
 img {
-    width: 100%;
+    width: 300px;
     margin: auto;
     display: block;
+    border-radius: 10px;
 }
 
-h1 {
+.index {
     text-align: center;
     padding: 1em;
 }
 
-p {
+h1 {
+    text-align: center;
+}
+
+.wrapper p {
     text-align: center;
     font-family: "JetBrains Mono", monospace;
 }
+
 
 a {
     background-color: hsl(1, 90%, 93%);
@@ -43,4 +49,27 @@ a {
     border: solid 3px hsl(1, 65%, 70%);
     text-decoration: none;
     font-weight: bold;
+}
+
+a p {
+    text-align: center;
+}
+
+.rubrik {
+    margin: 2em auto 1em;
+}
+
+.wrapper2 p {
+    margin-top: -0.5em;
+    font-family: "JetBrains Mono", monospace;
+}
+
+.wrapper2 div {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(1, 90%, 93%);
+    border: solid 1px hsl(1, 65%, 70%);
+    border-radius: 30px;
+    padding: 1em;
+    margin-bottom: 1.5em;
 }
